@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" styleClass="root" stylesheets="@BUTTON.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Deskripsi_Pembayaran.DonasiAlamController">
+    <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="600.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="800.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.2651515431476361" startX="1.0" startY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="0.9450980424880981" blue="0.7019608020782471" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007680491551459294">
+                     <color>
+                        <Color red="1.0" green="0.9450980424880981" blue="0.7019608020782471" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007680491551459294">
+                     <color>
+                        <Color red="1.0" green="0.9440000057220459" blue="0.7200000286102295" opacity="0.04452057182788849" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.9764705896377563" green="0.8627451062202454" blue="0.3607843220233917" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="21.0" layoutX="20.0" layoutY="421.0" stroke="BLACK" strokeType="INSIDE" width="407.0" />
+        <Button fx:id="button" layoutX="640.0" layoutY="525.0" onAction="#btnDonasi" prefHeight="30.0" prefWidth="120.0" styleClass="buttonz" stylesheets="@BUTTON.css" text="Donasi" textFill="WHITE" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fef199" height="50.0" layoutY="2.0" stroke="TRANSPARENT" strokeType="INSIDE" width="800.0" />
+      <Label layoutX="283.0" layoutY="6.0" text="Donasi Bencana Alam">
+         <font>
+            <Font name="Forte" size="29.0" />
+         </font></Label>
+      <Label layoutX="20.0" layoutY="448.0" prefHeight="27.0" prefWidth="163.0" styleClass="tekskonten" stylesheets="@BUTTON.css" text="RP .50.000.000">
+         <font>
+            <Font name="Harrington" size="12.0" />
+         </font></Label>
+      <Label layoutX="373.0" layoutY="449.0" styleClass="tekskonten" stylesheets="@BUTTON.css" text="30 hari" />
+      <Button layoutX="39.0" layoutY="525.0" mnemonicParsing="false" onAction="#btnKembali" prefHeight="30.0" prefWidth="120.0" stylesheets="@BUTTON.css" text="Kembali" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#32c2df" height="21.0" layoutX="17.0" layoutY="421.0" stroke="BLACK" strokeType="INSIDE" width="163.0" />
+      <Text layoutX="470.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tekskonten" text="Tanggul Sungai Sat jebol memicu banjir bandang yang menerjang permukiman warga RT 2 RW 6 Desa Tunjungrejo, Kecamatan Margoyoso, Pati. Perbaikan tanggul sementara pun dilakukan.Baca artikel detikjateng, &quot;Tanggul Sungai Sat Pati yang Jebol Diperbaiki, Alat Berat Dikerahkan." wrappingWidth="318.4000244140625">
+         <font>
+            <Font name="Corbel" size="18.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="255.0" fitWidth="442.0" layoutX="12.0" layoutY="131.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/banjirbandang.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="470.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tekskonten" text="Donation by : Naruto" wrappingWidth="207.79992675781256">
+         <font>
+            <Font name="Corbel" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="470.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="tekskonten" text="Tujuan : Pati, Kecamatan Margoyoso, Desa Tunjungrejo, RT 02, RW 06" wrappingWidth="143.80004882812506">
+         <font>
+            <Font name="Corbel" size="18.0" />
+         </font>
+      </Text>
+      <Line endX="219.0" endY="-1.52587890625E-5" layoutX="573.0" layoutY="149.0" startX="-100.0" stroke="#faf8f8" />
+      <Line endX="219.0" endY="-1.52587890625E-5" layoutX="573.0" layoutY="281.0" startX="-100.0" stroke="#faf8f8" />
+    </children>
+</AnchorPane>

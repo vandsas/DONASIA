@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" styleClass="root" stylesheets="@tampilan.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="homepagedonasia.HomePage2">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="600.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="800.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.2651515431476361" startX="1.0" startY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="0.9450980424880981" blue="0.7019608020782471" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007680491551459294">
+                     <color>
+                        <Color red="1.0" green="0.9450980424880981" blue="0.7019608020782471" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007680491551459294">
+                     <color>
+                        <Color red="1.0" green="0.9440000057220459" blue="0.7200000286102295" opacity="0.04452057182788849" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.9764705896377563" green="0.8627451062202454" blue="0.3607843220233917" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <ScrollPane hbarPolicy="NEVER" layoutY="406.0" prefHeight="199.0" prefWidth="800.0" vbarPolicy="ALWAYS">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1602.0" prefWidth="800.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" height="1609.0" layoutX="-19.0" layoutY="-9.0" stroke="TRANSPARENT" strokeType="INSIDE" width="819.0">
+                     <fill>
+                        <LinearGradient endX="1.0" endY="1.0" proportional="false" startY="1.0">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color />
+                                 </color>
+                              </Stop>
+                              <Stop offset="0.007680491551459294">
+                                 <color>
+                                    <Color red="0.9157894849777222" green="0.7475555539131165" blue="0.07461988180875778" opacity="0.05000000074505806" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="0.9100000262260437" green="0.744379997253418" blue="0.08190000057220459" opacity="0.6273972392082214" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </fill>
+                  </Rectangle>
+                  <Line endX="650.7999877929688" endY="-1.52587890625E-5" layoutX="123.0" layoutY="123.0" startX="-100.0" />
+                  <ImageView fitHeight="100.0" fitWidth="180.0" layoutX="41.0" layoutY="17.0" onMouseClicked="#btnDBD" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/050114900_1447215891-dbd.jpg" />
+                     </image></ImageView>
+                  <Text layoutX="265.0" layoutY="34.0" onMouseClicked="#btnDBD" strokeType="OUTSIDE" strokeWidth="0.0" text="Bantuan Warga Wakanda yang Terdampak Demam Berdarah">
+                     <font>
+                        <Font name="Arial Black" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="265.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Donation by : Peter" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#32c2df" height="11.0" layoutX="264.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="301.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="11.0" layoutX="529.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="126.0" />
+                  <Text layoutX="264.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Donasi terkumpul : " />
+                  <Text layoutX="264.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rp. 211.534.347">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="714.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sisa hari :" />
+                  <Text layoutX="714.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="37 hari" />
+                  <Line endX="652.800048828125" endY="-1.52587890625E-5" layoutX="127.0" layoutY="244.0" startX="-100.0" />
+                  <Text layoutX="271.0" layoutY="152.0" onMouseClicked="#btnBanjir" strokeType="OUTSIDE" strokeWidth="0.0" text="Bantu Warga Konoha yang Terdampak Banjir">
+                     <font>
+                        <Font name="Arial Black" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="271.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Donation by : Naruto" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="11.0" layoutX="271.0" layoutY="186.0" stroke="BLACK" strokeType="INSIDE" width="368.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#32c2df" height="11.0" layoutX="271.0" layoutY="186.0" stroke="BLACK" strokeType="INSIDE" width="273.0" />
+                  <Text layoutX="271.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Donasi terkumpul : " />
+                  <Text layoutX="272.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rp. 247.588.347">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="704.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sisa hari :" />
+                  <Text layoutX="704.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="97 hari" />
+                  <Text layoutX="271.0" layoutY="273.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gawat! Ribuan Rumah Warga Rusak Akibat Letusan Gunung">
+                     <font>
+                        <Font name="Arial Black" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="271.0" layoutY="295.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Donation by : Kung Lao" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="11.0" layoutX="271.0" layoutY="307.0" stroke="BLACK" strokeType="INSIDE" width="368.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#32c2df" height="11.0" layoutX="271.0" layoutY="307.0" stroke="BLACK" strokeType="INSIDE" width="230.0" />
+                  <Text layoutX="271.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Donasi terkumpul : " />
+                  <Text layoutX="272.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rp. 368.425.309">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="704.0" layoutY="337.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sisa hari :" />
+                  <Text layoutX="704.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="198 hari" />
+                  <Line endX="652.800048828125" endY="-1.52587890625E-5" layoutX="127.0" layoutY="365.0" startX="-100.0" />
+                  <Line endX="652.800048828125" endY="-1.52587890625E-5" layoutX="122.0" layoutY="491.0" startX="-100.0" />
+                  <Text layoutX="266.0" layoutY="399.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Satwa Langka Kehilangan Rumah Akibat Kebakaran Hutan">
+                     <font>
+                        <Font name="Arial Black" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="266.0" layoutY="421.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Donation by : Rick Grimes" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="11.0" layoutX="266.0" layoutY="433.0" stroke="BLACK" strokeType="INSIDE" width="368.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#32c2df" height="11.0" layoutX="266.0" layoutY="433.0" stroke="BLACK" strokeType="INSIDE" width="336.0" />
+                  <Text layoutX="266.0" layoutY="463.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Donasi terkumpul : " />
+                  <Text layoutX="267.0" layoutY="481.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rp. 237.514.766">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="699.0" layoutY="463.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sisa hari :" />
+                  <Text layoutX="699.0" layoutY="481.0" strokeType="OUTSIDE" strokeWidth="0.0" text="80 hari" />
+                  <Text layoutX="269.0" layoutY="525.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Memperbaiki Rumah Warga yang Terdampak Longsor">
+                     <font>
+                        <Font name="Arial Black" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="269.0" layoutY="547.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Donation by : Marc Marquez" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="11.0" layoutX="269.0" layoutY="559.0" stroke="BLACK" strokeType="INSIDE" width="368.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#32c2df" height="11.0" layoutX="269.0" layoutY="559.0" stroke="BLACK" strokeType="INSIDE" width="305.0" />
+                  <Text layoutX="269.0" layoutY="589.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Donasi terkumpul : " />
+                  <Text layoutX="270.0" layoutY="607.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rp. 367.824.552">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="702.0" layoutY="589.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sisa hari :" />
+                  <Text layoutX="702.0" layoutY="607.0" strokeType="OUTSIDE" strokeWidth="0.0" text="247 hari" />
+                  <ImageView fitHeight="100.0" fitWidth="180.0" layoutX="40.0" layoutY="136.0" onMouseClicked="#btnBanjir" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/banjirbandang.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="100.0" fitWidth="180.0" layoutX="37.0" layoutY="254.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/gunung%20meletus.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="100.0" fitWidth="180.0" layoutX="38.0" layoutY="379.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/kebakaran%20hutan.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="100.0" fitWidth="180.0" layoutX="37.0" layoutY="509.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/tanahlongsor.jpg" />
+                     </image>
+                  </ImageView>
+                  <Line endX="650.7999877929688" endY="-1.52587890625E-5" layoutX="126.0" layoutY="626.0" startX="-100.0" />
+                  <Line endX="650.7999877929688" endY="-1.52587890625E-5" layoutX="126.0" layoutY="906.0" startX="-100.0" />
+                  <Line endX="650.7999877929688" endY="-1.52587890625E-5" layoutX="126.0" layoutY="766.0" startX="-100.0" />
+                  <ImageView fitHeight="113.0" fitWidth="224.0" layoutX="33.0" layoutY="635.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/banner.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="270.0" layoutY="661.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bantuan Warga Suna yang Terdampak Covid-19">
+                     <font>
+                        <Font name="Arial Black" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="270.0" layoutY="679.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Donation by : Garaa" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="11.0" layoutX="317.0" layoutY="691.0" stroke="BLACK" strokeType="INSIDE" width="336.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#32c2df" height="11.0" layoutX="270.0" layoutY="691.0" stroke="BLACK" strokeType="INSIDE" width="48.0" />
+                  <Text layoutX="270.0" layoutY="730.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Donasi terkumpul : " />
+                  <Text layoutX="270.0" layoutY="753.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rp. 200.688">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="713.0" layoutY="730.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sisa hari :" />
+                  <Text layoutX="713.0" layoutY="753.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200 hari" />
+                  <ImageView fitHeight="122.0" fitWidth="224.0" layoutX="33.0" layoutY="778.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/Katarak.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="270.0" layoutY="803.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bantuan untuk Saudara Wazaoski yang Terkena Katarak">
+                     <font>
+                        <Font name="Arial Black" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="270.0" layoutY="821.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Donation by : Cella" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="11.0" layoutX="393.0" layoutY="833.0" stroke="BLACK" strokeType="INSIDE" width="260.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#32c2df" height="11.0" layoutX="270.0" layoutY="833.0" stroke="BLACK" strokeType="INSIDE" width="371.0" />
+                  <Text layoutX="270.0" layoutY="871.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Donasi terkumpul : " />
+                  <Text layoutX="270.0" layoutY="895.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rp. 690.666.999">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="713.0" layoutY="871.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sisa hari :" />
+                  <Text layoutX="713.0" layoutY="895.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7 hari" />
+                  <ImageView fitHeight="122.0" fitWidth="224.0" layoutX="33.0" layoutY="916.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/07282768170638-16x9-largevvvp.jpg" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="270.0" layoutY="942.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bantuan untuk Saudara Buzz yang Menderita Sifilis">
+                     <font>
+                        <Font name="Arial Black" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="270.0" layoutY="960.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Donation by : Woody" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="11.0" layoutX="393.0" layoutY="972.0" stroke="BLACK" strokeType="INSIDE" width="260.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#32c2df" height="11.0" layoutX="270.0" layoutY="972.0" stroke="BLACK" strokeType="INSIDE" width="130.0" />
+                  <Text layoutX="270.0" layoutY="1012.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Donasi terkumpul : " wrappingWidth="103.16015625" />
+                  <Text layoutX="270.0" layoutY="1034.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rp. 100.941.000">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="713.0" layoutY="1011.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sisa hari :" />
+                  <Text layoutX="713.0" layoutY="1033.0" strokeType="OUTSIDE" strokeWidth="0.0" text="49 hari" />
+                  <Line endX="650.7999877929688" endY="-1.52587890625E-5" layoutX="126.0" layoutY="1048.0" startX="-100.0" />
+                  <Line endX="652.800048828125" endY="-1.52587890625E-5" layoutX="129.0" layoutY="1293.0" startX="-100.0" />
+                  <Line endX="652.800048828125" endY="-1.52587890625E-5" layoutX="124.0" layoutY="1419.0" startX="-100.0" />
+                  <Line endX="652.800048828125" endY="-1.52587890625E-5" layoutX="128.0" layoutY="1173.0" startX="-100.0" />
+                  <Text layoutX="272.0" layoutY="1081.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zakat Pesantren Hilltop dan Tahfidz">
+                     <font>
+                        <Font name="Arial Black" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="272.0" layoutY="1103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Donation by : Glenn Rhee" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="11.0" layoutX="272.0" layoutY="1115.0" stroke="BLACK" strokeType="INSIDE" width="368.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#32c2df" height="11.0" layoutX="272.0" layoutY="1115.0" stroke="BLACK" strokeType="INSIDE" width="111.0" />
+                  <Text layoutX="272.0" layoutY="1145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Donasi terkumpul : " />
+                  <Text layoutX="273.0" layoutY="1163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rp. 60.632.772">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="705.0" layoutY="1145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sisa hari :" />
+                  <Text layoutX="705.0" layoutY="1163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="127 hari" />
+                  <Text layoutX="273.0" layoutY="1197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bantu Mereka yang Terdampak Covid-19">
+                     <font>
+                        <Font name="Arial Black" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="273.0" layoutY="1219.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Donation by : Robert Lewandowski" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="11.0" layoutX="273.0" layoutY="1231.0" stroke="BLACK" strokeType="INSIDE" width="368.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#32c2df" height="11.0" layoutX="273.0" layoutY="1231.0" stroke="BLACK" strokeType="INSIDE" width="336.0" />
+                  <Text layoutX="273.0" layoutY="1261.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Donasi terkumpul : " />
+                  <Text layoutX="274.0" layoutY="1279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rp. 428.532.764">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="706.0" layoutY="1261.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sisa hari :" />
+                  <Text layoutX="706.0" layoutY="1279.0" strokeType="OUTSIDE" strokeWidth="0.0" text="88 hari" />
+                  <Text layoutX="271.0" layoutY="1320.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zakat Panti Asuhan Oceanside">
+                     <font>
+                        <Font name="Arial Black" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="271.0" layoutY="1342.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Donation by : Tara Chambler" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="11.0" layoutX="271.0" layoutY="1354.0" stroke="BLACK" strokeType="INSIDE" width="368.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#32c2df" height="11.0" layoutX="271.0" layoutY="1354.0" stroke="BLACK" strokeType="INSIDE" width="269.0" />
+                  <Text layoutX="271.0" layoutY="1384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Donasi terkumpul : " />
+                  <Text layoutX="272.0" layoutY="1402.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rp. 237.514.766">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="704.0" layoutY="1384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sisa hari :" />
+                  <Text layoutX="704.0" layoutY="1402.0" strokeType="OUTSIDE" strokeWidth="0.0" text="157 hari" />
+                  <Text layoutX="271.0" layoutY="1449.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zakat Panti Jompo dan Guru Ngaji">
+                     <font>
+                        <Font name="Arial Black" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="271.0" layoutY="1471.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Donation by : Morgan Jones" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="11.0" layoutX="271.0" layoutY="1483.0" stroke="BLACK" strokeType="INSIDE" width="368.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#32c2df" height="11.0" layoutX="271.0" layoutY="1483.0" stroke="BLACK" strokeType="INSIDE" width="320.0" />
+                  <Text layoutX="271.0" layoutY="1513.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Donasi terkumpul : " />
+                  <Text layoutX="272.0" layoutY="1531.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rp. 276.542.875">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="704.0" layoutY="1513.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sisa hari :" />
+                  <Text layoutX="704.0" layoutY="1531.0" strokeType="OUTSIDE" strokeWidth="0.0" text="77 hari" />
+                  <ImageView fitHeight="100.0" fitWidth="180.0" layoutX="37.0" layoutY="1065.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/pesantren.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="100.0" fitWidth="180.0" layoutX="37.0" layoutY="1181.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/fakir%20miskin.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="100.0" fitWidth="180.0" layoutX="37.0" layoutY="1310.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/panti%20asuhan.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="100.0" fitWidth="180.0" layoutX="32.0" layoutY="1433.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Image/panti%20jompo.jpg" />
+                     </image>
+                  </ImageView>
+               </children></AnchorPane>
+        </content>
+      </ScrollPane>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fef199ab" height="45.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="800.0" />
+      <Button layoutX="513.0" layoutY="7.0" mnemonicParsing="false" onAction="#btnGalangDana" prefHeight="31.0" prefWidth="109.0" styleClass="btbNavigasi2" text="Galang dana" />
+      <Button layoutX="630.0" layoutY="7.0" mnemonicParsing="false" onAction="#btnSetting" styleClass="btbNavigasi" text="Setting" />
+      <Button layoutX="695.0" layoutY="7.0" mnemonicParsing="false" onAction="#btnAboutUs" styleClass="btbNavigasi" text="about us" />
+      <Button mnemonicParsing="false" onAction="#btnHome" styleClass="btbLogo" stylesheets="@../homepagedonasia/tampilan.css">
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/donasia1.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <AnchorPane fx:id="pane1" layoutX="290.0" layoutY="50.0" prefHeight="256.0" prefWidth="374.0">
+         <children>
+            <ImageView fitHeight="256.0" fitWidth="455.0" layoutX="-63.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/Donasia%20(1).png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pane2" layoutX="-6.0" layoutY="50.0" prefHeight="256.0" prefWidth="190.0">
+         <children>
+            <ImageView fitHeight="256.0" fitWidth="379.0" layoutX="233.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/Jutaan_Penerus_Bangsa_Menderita_Kekurangan_Gizi.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="pane3" layoutX="240.0" layoutY="50.0" prefHeight="256.0" prefWidth="392.0">
+         <children>
+            <ImageView fitHeight="256.0" fitWidth="455.0" layoutX="-13.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/tokopedia_finishing.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Button layoutX="1.0" layoutY="139.0" mnemonicParsing="false" onAction="#back" prefHeight="81.0" prefWidth="26.0" styleClass="btbNavigasi3" text="&lt;" />
+      <Button layoutX="773.0" layoutY="139.0" mnemonicParsing="false" onAction="#next" prefHeight="81.0" prefWidth="26.0" styleClass="btbNavigasi3" text="&gt;" />
+      <Button layoutX="178.0" layoutY="321.0" mnemonicParsing="false" onAction="#btnHome" prefHeight="61.0" prefWidth="61.0" styleClass="btnNavigasi4">
+         <graphic>
+            <ImageView fitHeight="55.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" styleClass="btbNavigasi3">
+               <image>
+                  <Image url="@../Image/select.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="309.0" layoutY="321.0" mnemonicParsing="false" onAction="#btnMedis" prefHeight="61.0" prefWidth="61.0" styleClass="btbNavigasi3">
+         <graphic>
+            <ImageView fitHeight="45.0" fitWidth="42.0">
+               <image>
+                  <Image url="@../Image/hospital.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="436.0" layoutY="321.0" mnemonicParsing="false" onAction="#btnBencanaAlam" prefHeight="61.0" prefWidth="61.0" styleClass="btbNavigasi3">
+         <graphic>
+            <ImageView fitHeight="43.0" fitWidth="38.0">
+               <image>
+                  <Image url="@../Image/disaster.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="568.0" layoutY="321.0" mnemonicParsing="false" onAction="#btnZakat" prefHeight="61.0" prefWidth="61.0" styleClass="btbNavigasi3">
+         <graphic>
+            <ImageView fitHeight="43.0" fitWidth="38.0">
+               <image>
+                  <Image url="@../Image/donation.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Label layoutX="184.0" layoutY="383.0" styleClass="teksKonten" text="Semua" />
+      <Label layoutX="319.0" layoutY="383.0" styleClass="teksKonten" text="Medis" />
+      <Label layoutX="420.0" layoutY="383.0" styleClass="teksKonten" text="Bencana Alam" />
+      <Label layoutX="580.0" layoutY="383.0" styleClass="teksKonten" text="Zakat" />
+      <Line endX="705.0" layoutX="97.0" layoutY="310.0" startX="-100.0" stroke="#fafafa" />
+      <Line endX="705.0" layoutX="97.0" layoutY="404.0" startX="-100.0" stroke="#fffefe" />
+   </children>
+</AnchorPane>

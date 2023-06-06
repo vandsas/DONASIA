@@ -1,0 +1,101 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 22, 2022, 9:47:22 PM
+    Author     : Alvanditya
+*/
+
+.root{
+    -fx-background-color: #e0ffff;
+}
+
+.btbLogo{
+    -fx-background-color: transparent;
+}
+.btbLogo:hover{
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.0, 0.0);
+}
+
+.btbNavigasi{
+    -fx-font-size: 15px;
+    -fx-text-fill: #000000;
+    -fx-font-family: Andika;
+    -fx-background-color: transparent;
+    -fx-text-decoration-line: underline;
+}
+
+.btbNavigasi2{
+    -fx-font-size: 15px;
+    -fx-text-fill: #000000;
+    -fx-font-family: Andika;
+    -fx-background-color: #e8be15;
+    -fx-background-radius: 60;
+}
+
+.btbNavigasi3{
+    -fx-background-color: #fef199ab;
+    -fx-background-radius: 360;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.0, 0.0);
+}
+
+.btnNavigasi4{
+    -fx-background-color: #a4a4a4;
+    -fx-background-radius: 360;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.0, 0.0);
+}
+
+.btbNavigasi5{
+    -fx-background-color: #0ef72d;
+    -fx-font-color: #ffffff;
+    -fx-background-radius: 360;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.0, 0.0);
+}
+.btbNavigasi:hover{
+    -fx-background-color: #EEC373;
+}
+
+.btbNavigasi2:hover{
+    -fx-background-color: #EEC373;
+}
+
+.btbNavigasi3:hover{
+     -fx-background-color: #EEC373;
+}
+
+.btnNavigasi4:hover{
+     -fx-background-color: #EEC373;
+}
+
+.btbNavigasi:pressed{
+    -fx-background-color: #DAB88B;
+}
+
+.btbNavigasi2:pressed{
+    -fx-background-color: #DAB88B;
+}
+
+.btbNavigasi3:pressed{
+    -fx-background-color: #DAB88B;
+}
+
+.btnNavigasi4:pressed{
+    -fx-background-color: #DAB88B;
+}
+
+.teksKonten{
+    -fx-font-family: Andika;
+    -fx-font-style: normal;
+    -fx-font-weight: 400;
+    -fx-font-size: 15px;
+    -fx-line-height: 23px;
+    -fx-text-fill: #000000;
+}
+
+.teksCerita{
+    -fx-font-size: 12px;
+    -fx-alignment: top-left;
+    -fx-text-alignment: left;
+    -fx-font-family: Andika;
+}

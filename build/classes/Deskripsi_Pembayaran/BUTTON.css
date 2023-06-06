@@ -1,0 +1,28 @@
+.tekskonten{
+    -fx-font-family: Andika;
+    -fx-font-size:15px;
+    
+}
+.button{
+    -fx-font-size:15px;
+    -fx-text-fill: #000000;
+    -fx-background-color: #e8be15;
+    -fx-background-radius: 60;
+    -fx-font-family:Andika;
+    
+}
+.buttonp{
+     -fx-font-size:15px;
+    -fx-text-fill: #000000;
+    -fx-background-color: #800000;
+    -fx-background-radius: 60;
+    -fx-font-family:Andika;
+    
+}
+.buttonz{
+  -fx-font-size:15px;
+    -fx-text-fill: #000000;
+    -fx-background-color: #008000;
+    -fx-background-radius: 60;
+    -fx-font-family:Andika;  
+}

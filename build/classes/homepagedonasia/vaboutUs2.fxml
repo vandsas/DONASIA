@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="homepagedonasia.AboutUs2">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="600.0" stroke="WHITE" strokeType="INSIDE" width="800.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.2651515431476361" startX="1.0" startY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="0.9450980424880981" blue="0.7019608020782471" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007680491551459294">
+                     <color>
+                        <Color red="1.0" green="0.9450980424880981" blue="0.7019608020782471" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007680491551459294">
+                     <color>
+                        <Color red="1.0" green="0.9440000057220459" blue="0.7200000286102295" opacity="0.04452057182788849" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.9764705896377563" green="0.8627451062202454" blue="0.3607843220233917" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Text layoutX="26.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DONASIA untuk Indonesia (DONASIA) adalah suatu sistem perangkat lunak untuk pengelolaan donasi dari pengguna ke tempat/pihak yang membutuhkan. Bentuk donasi yang akan disediakan dalam sistem ini ada 2 yaitu Penggalangan Dana dan Direct Person atau langsung ke orang yang dituju. DONASIA dibuat dengan alasan untuk menggantikan sistem/ tata cara donasi yang harus bertemu dengan orangnya langsung dengan sistem daring dimana orang bisa donasi tanpa harus bertemu dengan orang yang membutuhkan donasi langsung dengan aman dan bisa dipercaya." textAlignment="CENTER" wrappingWidth="747.9999999999999">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="227.0" layoutY="574.0" strokeType="OUTSIDE" strokeWidth="0.0" text="082258864305">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="485.0" layoutY="574.0" strokeType="OUTSIDE" strokeWidth="0.0" text="donasia@gmail.com">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="40.0" fitWidth="54.0" layoutX="179.0" layoutY="548.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/whatsapp_logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="54.0" layoutX="434.0" layoutY="547.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/Gmail-logo.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="bKembali" layoutX="25.0" layoutY="558.0" mnemonicParsing="false" onAction="#btnKembali" styleClass="btbNavigasi2" text="Kembali" />
+      <ImageView fitHeight="111.0" fitWidth="599.0" layoutX="106.0" layoutY="379.0">
+         <image>
+            <Image url="@../Image/image-removebg-preview_1.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="313.0" layoutY="372.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Meet The Team">
+         <font>
+            <Font name="Leelawadee UI Bold" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="110.0" layoutY="509.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rabby A M" wrappingWidth="95.45391845703125">
+         <font>
+            <Font name="Leelawadee UI Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="237.0" layoutY="508.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Agung P A" wrappingWidth="95.45391845703125">
+         <font>
+            <Font name="Leelawadee UI Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="358.0" layoutY="507.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bagas W H" wrappingWidth="95.45391845703125">
+         <font>
+            <Font name="Leelawadee UI Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="475.0" layoutY="507.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Khifran D W" wrappingWidth="105.053955078125">
+         <font>
+            <Font name="Leelawadee UI Bold" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="603.0" layoutY="506.0" strokeType="OUTSIDE" strokeWidth="0.0" text="M Alvanditya S" wrappingWidth="128.2540283203125">
+         <font>
+            <Font name="Leelawadee UI Bold" size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

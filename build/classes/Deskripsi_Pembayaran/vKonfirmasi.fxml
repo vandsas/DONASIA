@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Deskripsi_Pembayaran.KonfirmasiController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="600.0" layoutY="1.0" stroke="BLACK" strokeType="INSIDE" width="800.0">
+         <fill>
+            <LinearGradient endX="0.08056872037914697" endY="0.5734597156398105" startX="0.05687203791469194">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9078947305679321" green="0.7868421077728271" opacity="0.17000000178813934" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="0.7166666388511658" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Button layoutX="639.0" layoutY="67.0" mnemonicParsing="false" onAction="#histori" prefHeight="31.0" prefWidth="136.0" stylesheets="@BUTTON.css" text="Histori" />
+      <Text layoutX="213.0" layoutY="204.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DONASI BERHASIL">
+         <font>
+            <Font name="Ravie" size="36.0" />
+         </font>
+      </Text>
+      <Text layoutX="199.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Terima kasih telah mendonasikan sebagian harta Anda">
+         <font>
+            <Font name="MV Boli" size="18.0" />
+         </font>
+      </Text>
+      <Button layoutX="56.0" layoutY="67.0" mnemonicParsing="false" onAction="#kembali" stylesheets="@BUTTON.css" text="Kembali" />
+   </children>
+</AnchorPane>

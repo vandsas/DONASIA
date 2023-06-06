@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" stylesheets="@BUTTON.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Deskripsi_Pembayaran.ZakatController">
+    <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="600.0" layoutX="1.0" stroke="BLACK" strokeType="INSIDE" width="845.0">
+         <fill>
+            <LinearGradient endX="0.21327014218009477" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="0.8742856979370117" blue="0.11999999731779099" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.8947368264198303" green="0.3761898875236511" blue="0.053849902004003525" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+        <Button fx:id="button" layoutX="255.0" layoutY="472.0" onAction="#btnDonasi" text="Donasi" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Label layoutX="14.0" layoutY="14.0" text="Zakat">
+         <font>
+            <Font name="Forte" size="32.0" />
+         </font></Label>
+      <Label layoutX="19.0" layoutY="405.0" styleClass="tekskonten" text="RP.50.000.000" />
+      <Label layoutX="354.0" layoutY="405.0" styleClass="tekskonten" text="30 Hari" />
+      <ImageView fitHeight="600.0" fitWidth="420.0" layoutX="425.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ZAKAT%20KUNING.png" />
+         </image></ImageView>
+      <Button layoutX="65.0" layoutY="472.0" mnemonicParsing="false" onAction="#btnKembali" text="kembali" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f8fafc" height="21.0" layoutX="14.0" layoutY="384.0" stroke="BLACK" strokeType="INSIDE" width="388.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffad21" height="21.0" layoutX="14.0" layoutY="384.0" stroke="BLACK" strokeType="INSIDE" width="144.0" />
+      <Text layoutX="14.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zakat merupakan salah satu dari rukun Islam yang ke 3 yang wajib ditunaikan bagi yang memiliki harta yang memenuhi syarat , zakat tersebut akan dibagikan ke orang - orang yang membutuhkan . Mari kita menunaikan zakat sebagai amal kita nanti di Akhirat ." wrappingWidth="388.0">
+         <font>
+            <Font name="Corbel" size="18.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>

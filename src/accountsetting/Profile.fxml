@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" styleClass="background_color" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="accountsetting.ProfileController">
+    <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="LIGHTGOLDENRODYELLOW" height="222.0" layoutX="58.0" layoutY="105.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" styleClass="shadow_box" width="206.0" />
+      <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="120.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/ProfilePicture2.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="ltUsername" layoutX="68.0" layoutY="216.0" prefHeight="20.0" prefWidth="188.0" style="-fx-alignment: center;" text="null">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="ltemail" layoutX="64.0" layoutY="236.0" prefHeight="17.0" prefWidth="188.0" style="-fx-alignment: center;" text="null">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+        <Button fx:id="button" layoutX="59.0" layoutY="335.0" onAction="#fbProfile" prefHeight="31.0" prefWidth="206.0" styleClass="btbNavigasi3" stylesheets="@../homepagedonasia/tampilan.css" text="Profile" textFill="#00000080" wrapText="true" />
+      <Button fx:id="button1" layoutX="58.0" layoutY="370.0" onAction="#fbHistory" prefHeight="31.0" prefWidth="206.0" styleClass="btbNavigasi3" stylesheets="@../homepagedonasia/tampilan.css" text="History" />
+      <Button fx:id="button11" layoutX="58.0" layoutY="409.0" onAction="#fbLogout" prefHeight="31.0" prefWidth="206.0" styleClass="btnNavigasi4" stylesheets="@../homepagedonasia/tampilan.css" text="LogOut" />
+      <Label layoutX="296.0" layoutY="116.0" prefHeight="26.0" prefWidth="80.0" text="Fullname :">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="296.0" layoutY="142.0" prefHeight="26.0" prefWidth="88.0" text="Username :">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="296.0" layoutY="194.0" prefHeight="26.0" prefWidth="121.0" text="Date Of Birth :">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="296.0" layoutY="223.0" prefHeight="26.0" prefWidth="106.0" text="Email : ">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="296.0" layoutY="168.0" prefHeight="26.0" prefWidth="139.0" text="Phone Number :">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="lNama" layoutX="432.0" layoutY="116.0" prefHeight="26.0" prefWidth="299.0" text="null">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="lUsername" layoutX="432.0" layoutY="142.0" prefHeight="26.0" prefWidth="299.0" text="null">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="lNoTelp" layoutX="432.0" layoutY="168.0" prefHeight="26.0" prefWidth="299.0" text="null">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="lBirthDay" layoutX="432.0" layoutY="194.0" prefHeight="26.0" prefWidth="299.0" text="null">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="lemail" layoutX="432.0" layoutY="223.0" prefHeight="26.0" prefWidth="299.0" text="null">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="296.0" layoutY="254.0" prefHeight="26.0" prefWidth="106.0" text="Password :">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="lpassword" layoutX="432.0" layoutY="254.0" prefHeight="26.0" prefWidth="299.0" text="null">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fef199ab" height="45.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="800.0" />
+      <Button layoutX="523.0" layoutY="7.0" mnemonicParsing="false" onAction="#btnGalangDana" prefHeight="31.0" prefWidth="109.0" styleClass="btbNavigasi2" stylesheets="@../homepagedonasia/tampilan.css" text="Galang dana" />
+      <Button layoutX="648.0" layoutY="10.0" mnemonicParsing="false" onAction="#btnSetting" styleClass="btbNavigasi" stylesheets="@../homepagedonasia/tampilan.css" text="settting" />
+      <Button layoutX="717.0" layoutY="10.0" mnemonicParsing="false" onAction="#btnAboutUs" styleClass="btbNavigasi" stylesheets="@../homepagedonasia/tampilan.css" text="about us" />
+      <Button layoutY="-1.0" mnemonicParsing="false" onAction="#btnHome" styleClass="btbLogo" stylesheets="@../homepagedonasia/tampilan.css">
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/donasia1.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <TableView fx:id="tvUtama" layoutX="292.0" layoutY="366.0" prefHeight="200.0" prefWidth="454.0" visible="false">
+        <columns>
+          <TableColumn fx:id="tvFullname" prefWidth="75.0" text="Fullname" />
+          <TableColumn fx:id="tvUsername" prefWidth="75.0" text="Username" />
+            <TableColumn fx:id="tvPhoneNumber" prefWidth="75.0" text="Phone Number" />
+            <TableColumn fx:id="tvDateOfBirth" prefWidth="75.0" text="Date Of Birth" />
+            <TableColumn fx:id="tvEmail" prefWidth="75.0" text="Email" />
+            <TableColumn fx:id="tvPassword" prefWidth="75.0" text="Password" />
+        </columns>
+      </TableView>
+      <Button layoutX="648.0" layoutY="254.0" mnemonicParsing="false" onAction="#btnGantiPassword" styleClass="btbNavigasi3" stylesheets="@../homepagedonasia/tampilan.css" text="Ganti Password" />
+    </children>
+</AnchorPane>

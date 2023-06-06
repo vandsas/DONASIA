@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Login.Login">
+    <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="600.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="800.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="0.2651515431476361" startX="1.0" startY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="0.9450980424880981" blue="0.7019608020782471" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007680491551459294">
+                     <color>
+                        <Color red="1.0" green="0.9450980424880981" blue="0.7019608020782471" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007680491551459294">
+                     <color>
+                        <Color red="1.0" green="0.9440000057220459" blue="0.7200000286102295" opacity="0.04452057182788849" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.9764705896377563" green="0.8627451062202454" blue="0.3607843220233917" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Rectangle>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fef199ab" height="45.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="800.0" />
+      <Button layoutX="513.0" layoutY="7.0" mnemonicParsing="false" onAction="#btnGalangDana" prefHeight="31.0" prefWidth="109.0" styleClass="btbNavigasi2" stylesheets="@../homepagedonasia/tampilan.css" text="Galang dana" />
+      <Button layoutX="623.0" layoutY="7.0" mnemonicParsing="false" onAction="#btnSetting" styleClass="btbNavigasi" stylesheets="@../homepagedonasia/tampilan.css" text="settting" />
+      <Button layoutX="695.0" layoutY="7.0" mnemonicParsing="false" onAction="#btnAboutUs" styleClass="btbNavigasi" stylesheets="@../homepagedonasia/tampilan.css" text="about us" />
+      <Button mnemonicParsing="false" onAction="#btnHome" styleClass="btbLogo" stylesheets="@../homepagedonasia/tampilan.css">
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/donasia1.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <ImageView fitHeight="341.0" fitWidth="344.0" layoutX="420.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/cloud%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="341.0" fitWidth="344.0" layoutX="40.0" layoutY="206.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/cloud%20(1).png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="230.0" layoutX="170.0" layoutY="200.0" stroke="TRANSPARENT" strokeType="INSIDE" width="450.0">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="0.9450980424880981" blue="0.7019608020782471" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.007680491551459294">
+                     <color>
+                        <Color red="1.0" green="0.9450980424880981" blue="0.7019608020782471" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.5023041474654378">
+                     <color>
+                        <Color red="0.9900000095367432" green="0.9700350165367126" blue="0.8810999989509583" opacity="0.2568493187427521" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color opacity="0.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <effect>
+            <DropShadow blurType="ONE_PASS_BOX" offsetY="4.0">
+               <color>
+                  <Color opacity="0.24657535552978516" />
+               </color>
+            </DropShadow>
+         </effect>
+      </Rectangle>
+        <Button fx:id="button" layoutX="358.0" layoutY="330.0" onAction="#handleButtonAction" prefHeight="37.0" prefWidth="61.0" styleClass="btbNavigasi3" stylesheets="@../homepagedonasia/tampilan.css" text="Login" />
+      <ImageView fitHeight="76.0" fitWidth="84.0" layoutX="350.0" layoutY="168.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Image/donasia1.png" />
+         </image>
+         <effect>
+            <DropShadow blurType="GAUSSIAN" height="25.68" offsetX="2.0" offsetY="3.0" radius="11.17" spread="0.05">
+               <color>
+                  <Color opacity="0.5993151068687439" />
+               </color>
+            </DropShadow>
+         </effect>
+      </ImageView>
+      <TextField fx:id="tfUsername" layoutX="236.0" layoutY="257.0" prefHeight="26.0" prefWidth="306.0" promptText="Username" />
+      <Label fx:id="label11" layoutX="236.0" layoutY="421.0" minHeight="16" minWidth="69" text="Belum Punya Akun? Daftar disini!" />
+      <Button fx:id="bSignUp" layoutX="420.0" layoutY="417.0" onAction="#handlebSignUp" prefHeight="18.0" prefWidth="31.0" styleClass="btbNavigasi3" stylesheets="@../homepagedonasia/tampilan.css" text="!" />
+      <PasswordField fx:id="tfPassword" layoutX="237.0" layoutY="290.0" prefHeight="26.0" prefWidth="306.0" promptText="Password" />
+      <TableView fx:id="tvUtama" layoutX="70.0" layoutY="70.0" opacity="0.0" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn fx:id="tvFullName" prefWidth="75.0" text="Full Name" />
+          <TableColumn fx:id="tvUsername" prefWidth="75.0" text="Username" />
+            <TableColumn fx:id="tvDateOfBirth" prefWidth="75.0" text="Date oF birth" />
+            <TableColumn fx:id="tvEmail" prefWidth="75.0" text="Email" />
+            <TableColumn fx:id="tvPassword" prefWidth="75.0" text="Password" />
+            <TableColumn fx:id="tvPhoneNumber" prefWidth="75.0" text="PhoneNumber" />
+        </columns>
+      </TableView>
+    </children>
+</AnchorPane>

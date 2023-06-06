@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" styleClass="background_color" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="accountsetting.HistoryController">
+    <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="LIGHTGOLDENRODYELLOW" height="222.0" layoutX="58.0" layoutY="105.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" styleClass="shadow_box" width="206.0" />
+      <ImageView fitHeight="75.0" fitWidth="75.0" layoutX="120.0" layoutY="129.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/ProfilePicture2.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="ltNama" layoutX="68.0" layoutY="216.0" prefHeight="20.0" prefWidth="188.0" style="-fx-alignment: center;">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="ltEmail" layoutX="64.0" layoutY="236.0" prefHeight="17.0" prefWidth="188.0" style="-fx-alignment: center;">
+         <font>
+            <Font name="Arial" size="12.0" />
+         </font>
+      </Label>
+        <Button fx:id="button" layoutX="59.0" layoutY="335.0" onAction="#fbProfile" prefHeight="31.0" prefWidth="206.0" styleClass="btbNavigasi3" stylesheets="@../homepagedonasia/tampilan.css" text="Profile" textFill="#00000080" wrapText="true" />
+      <Button fx:id="button1" layoutX="59.0" layoutY="370.0" onAction="#fbHistory" prefHeight="31.0" prefWidth="206.0" styleClass="btbNavigasi3" stylesheets="@../homepagedonasia/tampilan.css" text="History" />
+      <Button fx:id="button11" layoutX="59.0" layoutY="405.0" onAction="#fbLogout" prefHeight="31.0" prefWidth="206.0" styleClass="btnNavigasi4" stylesheets="@../homepagedonasia/tampilan.css" text="LogOut" />
+      <TableView fx:id="tvHistory" layoutX="289.0" layoutY="104.0" prefHeight="323.0" prefWidth="487.0">
+        <columns>
+          <TableColumn fx:id="cNama" prefWidth="107.0" text="Nama" />
+          <TableColumn fx:id="cTujuan" prefWidth="67.0" text="Tujuan" />
+            <TableColumn fx:id="cNominal" prefWidth="99.0" text="Nominal" />
+            <TableColumn fx:id="cTanggal" prefWidth="77.0" text="Tanggal" />
+            <TableColumn fx:id="cMetodePembayaran" prefWidth="136.0" text="Metode Pembayaran" />
+        </columns>
+      </TableView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fef199ab" height="45.0" layoutX="3.0" layoutY="1.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="800.0" />
+      <Button layoutX="528.0" layoutY="8.0" mnemonicParsing="false" onAction="#btnGalangDana" prefHeight="31.0" prefWidth="109.0" styleClass="btbNavigasi2" stylesheets="@../homepagedonasia/tampilan.css" text="Galang dana" />
+      <Button layoutX="653.0" layoutY="11.0" mnemonicParsing="false" onAction="#btnSetting" styleClass="btbNavigasi" stylesheets="@../homepagedonasia/tampilan.css" text="settting" />
+      <Button layoutX="722.0" layoutY="11.0" mnemonicParsing="false" onAction="#btnAboutUs" styleClass="btbNavigasi" stylesheets="@../homepagedonasia/tampilan.css" text="about us" />
+      <Button layoutX="5.0" mnemonicParsing="false" onAction="#btnHome" styleClass="btbLogo" stylesheets="@../homepagedonasia/tampilan.css">
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Image/donasia1.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <TableView fx:id="tvUtama" layoutX="302.0" layoutY="434.0" prefHeight="142.0" prefWidth="454.0" visible="false">
+         <columns>
+            <TableColumn fx:id="tvFullname" prefWidth="75.0" text="Fullname" />
+            <TableColumn fx:id="tvUsername" prefWidth="75.0" text="Username" />
+            <TableColumn fx:id="tvPhoneNumber" prefWidth="75.0" text="Phone Number" />
+            <TableColumn fx:id="tvDateOfBirth" prefWidth="75.0" text="Date Of Birth" />
+            <TableColumn fx:id="tvEmail" prefWidth="75.0" text="Email" />
+            <TableColumn fx:id="tvPassword" prefWidth="75.0" text="Password" />
+         </columns>
+      </TableView>
+    </children>
+</AnchorPane>

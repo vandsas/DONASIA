@@ -1,0 +1,39 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 23, 2022, 12:50:00 PM
+    Author     : apras
+*/
+.background_color{
+    -fx-background-color: linear-gradient(to top,#FAFAD2,#FADA5D);
+}
+.shadow_box{
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 10, 0.5, 0.0, 0.0);
+}
+
+.ipad-grey {
+    
+/*    -fx-padding: 15 30 15 30;*/
+    -fx-font-family: "Helvetica";
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.2) , 1, 0.0 , 0 , 1);
+    -fx-text-alignment: left;
+    -fx-background-color: #fafad2;
+    -fx-border-color: #000 ;
+    -fx-border-width: 0.5 ; 
+    -fx-border-radius: 4;
+    -fx-border-style: solid ;
+    -fx-margin-top:10px; 
+}
+
+.btn_menu{
+    -fx-border-width: 0 ; 
+    -fx-background-color:transparent;
+}
+.button:hover{
+    -fx-background-color: #fff;
+}
